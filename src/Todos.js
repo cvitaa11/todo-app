@@ -10,7 +10,7 @@ const Todos = ({todos, deleteTodo}) => {
             )
         })
     ) : 
-       ( <p className="center">Sve je obavljeno batice</p>
+       ( <p className="center white-text">Sve je obavljeno</p>
     )
 
     return(
